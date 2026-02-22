@@ -22,7 +22,6 @@ def setup_control_editor():
         return
     bpy.context.view_layer.objects.active = None
     state.selected_obj_type = None
-    clear_pinned_timeline()
     clear_selection()
 
     ld_ui_control_editor = getattr(bpy.context.window_manager, "ld_ui_control_editor")
@@ -49,7 +48,6 @@ def setup_pos_editor():
         return
     bpy.context.view_layer.objects.active = None
     state.selected_obj_type = None
-    clear_pinned_timeline()
     clear_selection()
 
     unset_outliner_hide_empty()
@@ -71,7 +69,6 @@ def setup_led_editor():
         return
     bpy.context.view_layer.objects.active = None
     state.selected_obj_type = None
-    clear_pinned_timeline()
     clear_selection()
 
     ld_ui_led_editor = getattr(bpy.context.window_manager, "ld_ui_led_editor")
