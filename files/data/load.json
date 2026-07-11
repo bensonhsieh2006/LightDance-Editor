@@ -18,6 +18,14 @@
     "3_eric": {
       "url": "/asset/models/hunter.glb",
       "modelName": "hunter"
+    },
+    "4_staff1": {
+      "url": "/asset/models/props/staff.glb",
+      "modelName": "staff"
+    },
+    "5_staff2": {
+      "url": "/asset/models/props/staff.glb",
+      "modelName": "staff"
     }
   },
   "Config": {
